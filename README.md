@@ -1,26 +1,7 @@
 # Indicadores-de-Atendimento-Service-Now-Power-BI
+Estes painel possui diversas páginas, assim como outros paineis conectados (Como é o caso da visão de detalhamento da pesquisa)
 
-Média de CH Abertos por Ano = 
-AVERAGEX(VALUES('dCalendário'[Mês/Ano]),
-[TT CH Abertos])
 
-Média de TT Em aberto por Ano = 
-AVERAGEX(
-	KEEPFILTERS(VALUES('dCalendário'[Ano])),
-	CALCULATE([TT Em aberto])
-)
+![image](https://github.com/user-attachments/assets/8f8fea96-ddc3-4eca-856c-2f4df1779e96)
 
-Média de TT Encerrados SLA = 
-AVERAGEX(VALUES('dCalendário'[Mês/Ano]),
-[TT SLA])
-
-% Promotores = 
-CALCULATE([TT CH Avaliados], 'fPesquisa de Satisfação'[Valor] IN { 10, 9 })/[TT CH Avaliados]
-
-% Detratores = 
-CALCULATE(
-	[TT CH Avaliados],
-	'fPesquisa de Satisfação'[Valor] IN { 1, 2, 3, 4, 5, 6 }
-)/[TT CH Avaliados]
-
-NPS = ([% Promotores]-[% Detratores])*100
+Há também uma assinatura, enviando por e-mail uma one page com resumo dos principais indidcadores de desempenho da diretoria para os líderes.

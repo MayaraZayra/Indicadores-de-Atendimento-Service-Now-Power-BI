@@ -1,5 +1,5 @@
 # Indicadores-de-Atendimento-Service-Now-Power-BI
-Estes painel possui diversas páginas, assim como outros paineis conectados (Como é o caso da visão de detalhamento da pesquisa)
+Estes painel possui diversas páginas, assim como outros paineis conectados (Como é o caso da visão de detalhamento da pesquisa - https://github.com/MayaraZayra/Detalhamento-Pesquisa-de-Satisfa-o-NPS)
 
 
 ![image](https://github.com/user-attachments/assets/8f8fea96-ddc3-4eca-856c-2f4df1779e96)
